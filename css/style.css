@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/**
+* * Navbar
+*/
+
+.navbar {
+    background-color: rgb(9, 7, 77) !important;
+    box-shadow: 0.1rem 0.1rem 0.7rem #383939;
+}
+
+/**
+* * End Navbar
+*/
+
+
+
+
+/**
+* * Home
+*/
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.landing {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.home-wrap {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.home-inner {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/coding.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.caption {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    text-shadow: 0.2rem 0.2rem 0.5rem #1d1d1d;
+
+}
+
+.caption h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.caption a {
+    font-size: 1.2rem;
+    border-width: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.caption a:hover {
+    color: rgb(23, 22, 99);
+}
+
+#logo {
+    background-color: #f5f5f5;
+}
+
+/* .carousel-caption h4{
+    text-shadow: 0.1rem 0.1rem 0.3rem #000;
+} */
+
+/**
+* * End Home
+*/
+
+
+
+/**
+* * About me
+*/
+
+#title {
+    text-shadow: 0.1rem 0.1rem 0.2rem #555;
+    font-size: 2.5rem;
+}
+
+.underline {
+    margin-left: 2rem;
+    width: 90%;
+    height: 0.2rem;
+    border-radius: 1rem;
+    background-color: rgb(15, 14, 35);
+}
+
+#about-me {
+    text-shadow: 0.1rem 0.1rem 0.2rem #555;
+    padding-top: 2.3rem;
+
+
+}
+
+#about-me-content {
+    background-color: rgb(23, 22, 99);
+
+
+}
+
+#about-me #about-me-content #text {
+    padding: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.3rem #1d1d1d;
+}
+
+#about-me #about-me-content #text h3 {
+
+    letter-spacing: 0.1rem;
+}
+
+#about-me #about-me-content #text h5 {
+    line-height: 1.9rem;
+    letter-spacing: 0.1rem;
+}
+
+#about-me #about-me-content img {
+    width: 40%;
+    border-radius: 1.3rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem #3e3b43;
+
+}
+
+/**
+* * End About me
+*/
+
+
+/** 
+* * Projects
+ */
+#projects {
+    padding-top: 2.3rem;
+
+}
+
+#project img {
+    width: 25rem;
+
+}
+
+#project {
+    box-shadow: 0.2rem 0.2rem 0.5rem #555;
+    margin: 1.2rem 0.3rem;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-shadow: 0.1rem 0.1rem 0.5rem #555;
+}
+
+.btn-secondary {
+    background-color: rgb(26, 25, 108);
+    border-color: rgb(23, 22, 99);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(36, 34, 154);
+    border-color: rgb(37, 36, 130);
+}
+
+#project h4 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+/** 
+* * End Projects
+ */
+
+
+/** 
+* *  Footer
+ */
+
+/** 
+* * Footer
+ */
+
+ /*
+ * Fab Btn 
+  */
+.btn-group-fab {
+    position: fixed;
+    right: 1.2rem;
+    bottom: 1.2rem;
+    width: 3rem;
+    height: auto;
+}
+
+.btn-group-fab .btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-group-fab .btn-main {
+    width: 3.1rem;
+    height: 3.1rem;
+    z-index: 3;
+    line-height: 2;
+}
+
+.btn-group-fab .btn-sub {
+    right: 50%;
+    bottom: 0;
+    margin-right: -1.3rem;
+    transition: all 0.6s;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(2){
+  bottom: 3.4rem;
+    
+}  
+ .btn-group-fab.active .btn-sub:nth-child(3){
+    bottom: 6.1rem;
+}   
+/*
+ * End Fab Btn 
+  */
