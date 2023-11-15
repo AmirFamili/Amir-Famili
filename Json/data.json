@@ -3,49 +3,49 @@
         {
             "id":1,
             "name":"Movies",
-            "img":" ../images/website/movies.png",
+            "img":" ../images/movies.png",
             "link":"https://github.com/amirmohammadfamili/Movie"
         },
         {
             "id":2,
             "name":"The Weather",
-            "img":" ../images/website/weather.png",
+            "img":" ../images/weather.png",
             "link":"https://github.com/amirmohammadfamili/TheWeather"
         },
         {
             "id":3,
             "name":"Tic-Toc-Toe",
-            "img":" ../images/website/tic-toc-toe.png",
+            "img":" ../images/tic-toc-toe.png",
             "link":"https://github.com/amirmohammadfamili/Tic-Toc-Toe"
         },
         {
             "id":4,
             "name":"Calculator",
-            "img":"../images/website/calculator.png",
+            "img":"../images/calculator.png",
             "link":"https://github.com/amirmohammadfamili/calculator"
         },
         {
             "id":5,
             "name":"Battery Store",
-            "img":"../images/website/buy-battery.png",
+            "img":"../images/buy-battery.png",
             "link":"https://allopower.ir/"
         },
         {
             "id":6,
             "name":"Animation",
-            "img":"../images/website/animation.png",
+            "img":"../images/animation.png",
             "link":"https://github.com/amirmohammadfamili/Animation"
         },
         {
             "id":7,
             "name":"Snake",
-            "img":"../images/website/snake.png",
+            "img":"../images/snake.png",
             "link":"https://github.com/amirmohammadfamili/Snake"
         },
         {
             "id":8,
             "name":"Matching Game",
-            "img":"../images/website/matching-game.png",
+            "img":"../images/matching-game.png",
             "link":"https://github.com/amirmohammadfamili/matching-game"
         }
        
