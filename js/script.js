@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
 
  function loadData() {
-     console.log('hi'),
+     console.log('hi');
         // $.ajax({
         //     url: "../Json/data.json",
         //     type: 'GET',
