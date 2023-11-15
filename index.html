@@ -11,17 +11,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front End Developer</title>
 
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- End Bootstrap -->
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <!-- End Google Font -->
+
+    <!-- FontAwesome -->
     <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+    <!-- End FontAwesome -->
+    
     <link rel="stylesheet" href="css/style.css">
+    
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End AOS Animation -->
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
 
+     <!-- preloader -->
+    <div id="preloader"></div>
+    <!-- preloader -->
+    
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand " href="#">
@@ -62,67 +80,14 @@
             </div>
         </section>
         <section class="caption text-center text-white  ">
-            <h1 class="text-capitalize pb-2">Coding HTML, CSS and JavaScript in front end </h1>
+            <h1 class="text-capitalize pb-2">I'm a front end developer</h1>
             <h5 class="pb-3">I designed many web you can see my some project with click on button.</h5>
             <a href="#projects" class="btn btn-outline-light btn-start ">My Projects</a>
         </section>
 
     </div>
 
-    <!-- <section id="home" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#home" data-slide-to="0" class="active"></li>
-            <li data-target="#home" data-slide-to="1"></li>
-            <li data-target="#home" data-slide-to="2"></li>
-            <li data-target="#home" data-slide-to="3"></li>
-            <li data-target="#home" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="images/web site/calculator.png" alt="Calculator">
-                <div class="carousel-caption d-none d-md-block">
-                    <h4 class="mb-4 t">"if you want to see code for this web site you can click on its image"
-                    </h4>
-
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/web site/tic-toc-toe.png" alt="tic-toc-toe">
-                <div class="carousel-caption d-none d-md-block">
-                    <h4 class="mb-4 t">"if you want to see code for this web site you can click on its image"
-                    </h4>
-
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/web site/weather.png" alt="weather">
-                <div class="carousel-caption d-none d-md-block">
-                    <h4 class="mb-4 t">"if you want to see code for this web site you can click on its image"
-                    </h4>
-
-                </div>
-            </div>
-            <div class="carousel-item">
-                <a href="http://allobattery.com"><img class="d-block w-100" src="images/web site/buy-battery.png"
-                        alt="buy car's battery"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h4 class="mb-4 t">"if you want to see code for this web site you can click on its image"
-                    </h4>
-
-                </div>
-            </div>
-            <div class="carousel-item ">
-                <img class="d-block w-100" src="images/web site/movies.png" alt="Movies site">
-                <div class="carousel-caption d-none d-md-block">
-                    <h4 class="mb-4 t">"if you want to see code for this web site you can click on its image"
-                    </h4>
-
-                </div>
-            </div>
-        </div>
-
-    </section> -->
+   
 
 
     <div id="after-home" class="bg-white">
@@ -172,45 +137,9 @@
                 My Programs
             </h2>
             <div class="underline"></div>
-            <div class="jumbotron p-5 mt-4 d-flex justify-content-around align-items-center flex-wrap ">
+            <div class="projects jumbotron p-5 mt-4 d-flex justify-content-around align-items-center flex-wrap ">
 
-                <div id="project" class="">
-                    <img src="images/web site/movies.png" alt="movies">
-                    <h4 class="pt-3 pl-3">Movies</h4>
-                    <a href="https://github.com/amirmohammadfamili/Movie" class="btn btn-secondary mt-2 p-3  w-100 "
-                        target="_blank">Show Code
-                    </a>
-                </div>
-                <div id="project" class="">
-                    <img src="images/web site/weather.png" alt="weather">
-                    <h4 class="pt-3 pl-3"> The Weather </h4>
-                    <a href="https://github.com/amirmohammadfamili/TheWeather"
-                        class="btn btn-secondary mt-2 p-3  w-100 " target="_blank">Show Code</a>
-                </div>
-                <div id="project" class="">
-                    <img src="images/web site/tic-toc-toe.png" alt="tic-toc-toe">
-                    <h4 class="pt-3 pl-3">Tic-Toc-Toe</h4>
-                    <a href="https://github.com/amirmohammadfamili/Tic-Toc-Toe"
-                        class="btn btn-secondary mt-2 p-3  w-100 " target="_blank">Show Code</a>
-                </div>
-                <div id="project" class="">
-                    <img src="images/web site/calculator.png" alt="calculator">
-                    <h4 class="pt-3 pl-3">Calculator</h4>
-                    <a href="https://github.com/amirmohammadfamili/calculator"
-                        class="btn btn-secondary mt-2 p-3  w-100 " target="_blank">Show Code</a>
-                </div>
-                <div id="project" class="">
-                    <img src="images/web site/buy-battery.png" alt="buy battery">
-                    <h4 class="pt-3 pl-3">Battery Store</h4>
-                    <a href="https://allobattery.com/" class="btn btn-secondary mt-2 p-3  w-100 " target="_blank">Show
-                        Code</a>
-                </div>
-                <div id="project" class="">
-                    <img src="images/web site/animation.png" alt="animation">
-                    <h4 class="pt-3 pl-3">Animation</h4>
-                    <a href="https://github.com/amirmohammadfamili/Animation" class="btn btn-secondary mt-2 p-3  w-100 "
-                        target="_blank">Show Code</a>
-                </div>
+               
             </div>
         </section>
 
@@ -241,10 +170,20 @@
 
 
 
-    <script src="js/jquery.min.3.3.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+  
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!--  End Bootstrap -->
+    
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- End AOS Animation -->
+    
     <script src="js/script.js"></script>
 </body>
 
