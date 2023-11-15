@@ -194,12 +194,18 @@ body {
     text-shadow: 0.1rem 0.1rem 0.5rem #555;
 }
 
-.btn-secondary {
-    background-color: rgb(26, 25, 108);
-    border-color: rgb(23, 22, 99);
+#project button{
+    padding: 10px;
+   width: 100%;
+   background-color: rgb(26, 25, 108);
+   border-color: rgb(23, 22, 99);
+  
 }
-
-.btn-secondary:hover {
+#project button a{
+    color: #fff;
+    text-decoration: none;
+}
+#project button:hover{
     background-color: rgb(36, 34, 154);
     border-color: rgb(37, 36, 130);
 }
