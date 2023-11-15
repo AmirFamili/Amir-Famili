@@ -12,6 +12,12 @@ $(document).ready(function() {
     });
 });
 
+    $(window).on("load", function () {
+        setTimeout(() => {
+            $('#preloader').css('display', 'none');
+        }, 800);
+    });
+
 $(function() {
     $('.btn-group-fab').on('click', function() {
         $('.btn-group-fab').toggleClass('active');
