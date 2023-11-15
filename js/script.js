@@ -21,7 +21,7 @@ $(document).ready(function() {
 
  function loadData() {
         $.ajax({
-            url: "../../Json/data.json",
+            url: "../Json/data.json",
             type: 'GET',
             dataType: 'json',
             success: function (data) { 
