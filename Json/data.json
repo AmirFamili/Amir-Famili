@@ -8,7 +8,7 @@
         },
         {
             "id":2,
-            "name":"The Weather",
+            "name":"Weather",
             "img":" ../images/website/weather.png",
             "link":"https://github.com/amirmohammadfamili/TheWeather"
         },
@@ -44,7 +44,7 @@
         },
         {
             "id":8,
-            "name":"Matching Game",
+            "name":"Matching-Game",
             "img":"../images/website/matching-game.png",
             "link":"https://github.com/amirmohammadfamili/matching-game"
         }
