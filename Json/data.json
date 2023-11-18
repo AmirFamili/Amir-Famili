@@ -3,7 +3,7 @@
         {
             "id":1,
             "name":"Movies",
-            "img":" ../images/movies.png",
+            "img":" images/movies.png",
             "link":"https://github.com/amirmohammadfamili/Movie"
         },
         {
