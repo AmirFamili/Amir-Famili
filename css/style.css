@@ -193,9 +193,7 @@ body {
     overflow: hidden;
     text-shadow: 0.1rem 0.1rem 0.5rem #555;
 }
-#project h4{
-    padding: 0.7rem 1rem;
-}
+
 #project button{
    padding: 0.7rem;
    width: 100%;
@@ -214,6 +212,7 @@ body {
 
 #project h4 {
     font-weight: bold;
+    padding: 0.7rem 1rem;
 }
 
 .jumbotron {
