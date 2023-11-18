@@ -30,9 +30,9 @@ $(document).ready(function() {
                 myJsonData.map(project => {
                     htmlStr+= `
                            <div data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" id="project"  className="">
+                                data-aos-anchor-placement="top-bottom" id="project">
                                 <img src=${project.img} alt=${project.name}/>
-                                <h4  className=" p-3">${project.name}</h4>
+                                <h4>${project.name}</h4>
                                 <button><a href=${project.link} 
                                 target="_blank">Show Code
                             </a></button>

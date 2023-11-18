@@ -193,9 +193,11 @@ body {
     overflow: hidden;
     text-shadow: 0.1rem 0.1rem 0.5rem #555;
 }
-
+#project h4{
+    padding: 0.7rem 1rem;
+}
 #project button{
-    padding: 10px;
+   padding: 0.7rem;
    width: 100%;
    background-color: rgb(26, 25, 108);
    border-color: rgb(23, 22, 99);
