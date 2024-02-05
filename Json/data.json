@@ -2,27 +2,27 @@
     "data":[
         {
             "id":1,
-            "name":"Movies",
-            "img":" images/website/movies.png",
-            "link":"https://github.com/amirmohammadfamili/Movie"
+            "name":web Developer",
+            "img":" images/website/web-developer.jpg",
+            "link":"https://github.com/AmirFamili/webDeveloper"
         },
         {
             "id":2,
-            "name":"Weather",
-            "img":" images/website/weather.png",
-            "link":"https://github.com/amirmohammadfamili/TheWeather"
+            "name":"Movies",
+            "img":" images/website/movies.png",
+            "link":"https://github.com/AmirFamili/Movie"
         },
         {
             "id":3,
             "name":"Tic-Toc-Toe",
             "img":" images/website/tic-toc-toe.png",
-            "link":"https://github.com/amirmohammadfamili/Tic-Toc-Toe"
+            "link":"https://github.com/AmirFamili/Tic-Toc-Toe"
         },
         {
             "id":4,
             "name":"Calculator",
             "img":"images/website/calculator.png",
-            "link":"https://github.com/amirmohammadfamili/calculator"
+            "link":"https://github.com/AmirFamili/calculator"
         },
         {
             "id":5,
@@ -34,20 +34,26 @@
             "id":6,
             "name":"Animation",
             "img":"images/website/animation.png",
-            "link":"https://github.com/amirmohammadfamili/Animation"
+            "link":"https://github.com/AmirFamili/Animation"
         },
         {
             "id":7,
             "name":"Snake",
             "img":"images/website/snake.png",
-            "link":"https://github.com/amirmohammadfamili/Snake"
+            "link":"https://github.com/AmirFamili/Snake"
         },
         {
             "id":8,
             "name":"Matching-Game",
             "img":"images/website/matching-game.png",
-            "link":"https://github.com/amirmohammadfamili/matching-game"
-        }
+            "link":"https://github.com/AmirFamili/matching-game"
+        },
+         {
+            "id":9,
+            "name":"Weather",
+            "img":" images/website/weather.png",
+            "link":"https://github.com/AmirFamili/TheWeather"
+        },
        
     ]
 }
